@@ -16,7 +16,7 @@ button:focus {
 
 /* -------- BODY DISPLAY --------- */
 body {
-  background-color: #222;
+  background-color: black;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -48,7 +48,7 @@ body {
   font-weight: bold;
   padding: 0px 10px;
   transform-style: preserve-3d;
-  text-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 10px 15px plum;
   transform: translate(-50%, -50%) rotateX(calc(var(--i) * 22.5deg)) translateZ(109px);
 }
 
@@ -57,11 +57,11 @@ body {
 }
 
 .container .box span i:nth-child(1) {
-  color: #5c5fc4;
+  color: pink;
 }
 
 .container .box span i:nth-child(2) {
-  color: #c4c15c;
+  color: lightblue;
 }
 
 @keyframes animate {
